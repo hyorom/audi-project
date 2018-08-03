@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Audi Type Screen';
+    src: url('hinted-AudiTypeScreen-Light.eot');
+    src: url('hinted-AudiTypeScreen-Light.eot?#iefix') format('embedded-opentype'),
+        url('hinted-AudiTypeScreen-Light.woff2') format('woff2'),
+        url('hinted-AudiTypeScreen-Light.woff') format('woff'),
+        url('hinted-AudiTypeScreen-Light.ttf') format('truetype'),
+        url('hinted-AudiTypeScreen-Light.svg#AudiTypeScreen-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Audi Type Extended';
+    src: url('hinted-AudiType-ExtendedBold.eot');
+    src: url('hinted-AudiType-ExtendedBold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-AudiType-ExtendedBold.woff2') format('woff2'),
+        url('hinted-AudiType-ExtendedBold.woff') format('woff'),
+        url('hinted-AudiType-ExtendedBold.ttf') format('truetype'),
+        url('hinted-AudiType-ExtendedBold.svg#AudiType-ExtendedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Audi Type Screen';
+    src: url('hinted-AudiTypeScreen-Bold.eot');
+    src: url('hinted-AudiTypeScreen-Bold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-AudiTypeScreen-Bold.woff2') format('woff2'),
+        url('hinted-AudiTypeScreen-Bold.woff') format('woff'),
+        url('hinted-AudiTypeScreen-Bold.ttf') format('truetype'),
+        url('hinted-AudiTypeScreen-Bold.svg#AudiTypeScreen-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Audi Type Screen';
+    src: url('hinted-AudiTypeScreen-Normal.eot');
+    src: url('hinted-AudiTypeScreen-Normal.eot?#iefix') format('embedded-opentype'),
+        url('hinted-AudiTypeScreen-Normal.woff2') format('woff2'),
+        url('hinted-AudiTypeScreen-Normal.woff') format('woff'),
+        url('hinted-AudiTypeScreen-Normal.ttf') format('truetype'),
+        url('hinted-AudiTypeScreen-Normal.svg#AudiTypeScreen-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Audi Type Extended';
+    src: url('hinted-AudiType-ExtendedNormal.eot');
+    src: url('hinted-AudiType-ExtendedNormal.eot?#iefix') format('embedded-opentype'),
+        url('hinted-AudiType-ExtendedNormal.woff2') format('woff2'),
+        url('hinted-AudiType-ExtendedNormal.woff') format('woff'),
+        url('hinted-AudiType-ExtendedNormal.ttf') format('truetype'),
+        url('hinted-AudiType-ExtendedNormal.svg#AudiType-ExtendedNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
