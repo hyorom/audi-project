@@ -1,0 +1,59 @@
+/*audi_foot_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+
+
+.footBox_wrap{width:100%; height:520px; background-color:#000;}
+
+#footBox {margin:auto; 
+          width:70%; 
+          /*800*/
+          height:300px;}
+
+#fnb{box-sizing:border-box; 
+     padding-top:8rem;
+     width:100%; height:inherit;}
+
+#fnb ul {width:100%; height:200px;}
+
+
+#fnb ul > li{float:left; width:13%; height:auto; }
+#foot_model {margin-right:13%;}
+#foot_company {margin-right:15%;}
+#foot_exper {margin-right:16%;}
+#foot_service { margin-right:0;}
+
+
+.foot_title {display:block;
+             margin-bottom:3.5rem; 
+             width:100%; height:auto;
+             color:#ccc; font-size:1rem; 
+             font-weight:bold;}
+
+
+#fnb ul li dd {width:100%; height:auto;}
+
+
+#fnb ul li dd a{display:block; 
+                width:100%;
+                height:auto;
+                color:#ccc; 
+                font-size:0.9rem; 
+                margin-bottom:1.1rem;}
+
+
+#footBox p {padding-top:7rem; margin:auto; 
+            width:350px; height:auto;
+            color:#999; font-size:0.8rem; }
+
+
+ .footBtn {display: none;}          
+
+
+
+ /*hover,focus*/
+#footBox a:focus,
+#footBox a:hover{color:rgb(187,10,48);} 
+
+}

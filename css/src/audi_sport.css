@@ -1,0 +1,37 @@
+ /*audi_news.css*/
+
+
+/*---video---*/
+@import url("./sport/videoBox/videoBox_all.css");
+
+
+
+/*---legacy---*/
+@import url("./sport/legacyBox/legacyBox_1920.css");
+@import url("./sport/legacyBox/legacyBox_1366.css");
+@import url("./sport/legacyBox/legacyBox_768.css");
+@import url("./sport/legacyBox/legacyBox_480.css");
+
+
+/*---sportmodel---*/
+@import url("./sport/sportmodelBox/sportmodelBox_1920.css");
+@import url("./sport/sportmodelBox/sportmodelBox_1366.css");
+@import url("./sport/sportmodelBox/sportmodelBox_768.css");
+@import url("./sport/sportmodelBox/sportmodelBox_480.css");
+
+
+
+/*---hilight---*/
+@import url("./sport/hilightBox/hilightBox_1920.css");
+@import url("./sport/hilightBox/hilightBox_1366.css");
+@import url("./sport/hilightBox/hilightBox_768.css");
+@import url("./sport/hilightBox/hilightBox_480.css");
+
+
+
+/*---dtm---*/
+@import url("./sport/dtmBox/dtmBox_1920.css");
+@import url("./sport/dtmBox/dtmBox_1366.css");
+@import url("./sport/dtmBox/dtmBox_768.css");
+@import url("./sport/dtmBox/dtmBox_480.css");
+

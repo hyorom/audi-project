@@ -1,0 +1,123 @@
+/*hilightBox_480.css*/
+
+@media screen and (max-width: 480px) {  
+
+#hilightBox {margin:auto;
+              width:90%;
+              height:250vw; /*1200/480*100*/
+              min-height:53.125rem; /*850*/}
+ 
+
+
+/*text*/
+.hilight_text{width:100%;
+              height:auto;
+              padding:20% 0 5%;}
+
+
+.hilight_text > h2 {width:auto;
+                    height:auto;
+                    font-size:1.5rem;
+                    font-weight: bold;
+                    padding-bottom: 2rem;}
+
+.hilight_text > p  {width:auto;
+                    height:auto;
+                    font-size:0.9rem;
+                    font-weight: bold;}
+
+ 
+
+ /*img*/
+ 
+
+.hilight_img_wrap{width:100%;
+                  height:155vw; }
+
+.hilight_img {width:100%;
+              height:100%;}
+
+.img_content_01 {width:100%;
+                 height:50%;}
+
+.img_content_02 {width:100%;
+                 height:50;}
+
+
+.hilight_img li{float:left;
+                width:49%;
+                height:25vw;}
+
+
+.hilight_img a {display:block;
+                width:100%; 
+                height:100%;
+                transition: all 500ms linear;
+                background-repeat: no-repeat;
+                background-size: 105%;
+                background-position:center top;}  
+
+
+.hilight_img span {display: block;
+                   width:100%;
+                   height:100%;
+                   color:transparent;
+                   font-size:0.9rem;
+                   font-weight: bold;
+                   box-sizing: border-box;
+                   padding:1rem;
+                   transition: all 500ms linear;}
+
+
+
+
+.img_content_01>li:nth-child(1) {width:100%;
+                                 height:49vw;
+                                 margin-bottom:2%;}
+.img_content_01>li:nth-child(1) a {background-image: url("../../../../img/sport/hilight/hilight_01_mob.png");}
+
+
+.img_content_01>li:nth-child(2) a {background-image: url("../../../../img/sport/hilight/hilight_02_mob.png");}
+
+
+.img_content_01>li:nth-child(3) {float:right;}
+.img_content_01>li:nth-child(3) a {background-image: url("../../../../img/sport/hilight/hilight_03_mob.png");}
+
+
+
+.img_content_02>li:nth-child(1)  {margin-bottom:2%;}
+.img_content_02>li:nth-child(1) a {background-image: url("../../../../img/sport/hilight/hilight_04_mob.png");}
+
+
+.img_content_02>li:nth-child(2) {float:right;}
+.img_content_02>li:nth-child(2) a {background-image: url("../../../../img/sport/hilight/hilight_05_mob.png");}
+
+
+.img_content_02>li:nth-child(3) { width:100%; height:49vw;}
+.img_content_02>li:nth-child(3) a {background-image: url("../../../../img/sport/hilight/hilight_06_mob.png");}
+
+
+
+
+
+.hilight_img a:focus,
+.hilight_img a:hover {background-size:110%;}
+
+.hilight_img a:focus span,
+.hilight_img a:hover span {background-color:rgba(0,0,0,0.8);
+                            color:#eee;}
+
+
+} 
+
+@media screen and (max-width: 410px) {  
+
+.hilight_img span {font-size:0.8rem;
+                   font-weight: lighter;}
+}
+
+
+@media screen and (max-width: 380px) { 
+.hilight_img span { padding:0.5rem;}
+
+}

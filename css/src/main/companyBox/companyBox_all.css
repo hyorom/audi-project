@@ -1,0 +1,28 @@
+/*companyBox_all.css*/
+
+
+
+/*text*/
+.company_text h2 { font-size:2.5rem; color:#fff; }
+.company_text h3 { color:#fff;}
+
+
+
+.company_text{opacity:0;
+              transform:translateY(2rem); 
+              transition: all 800ms linear;} 
+
+#companyBox .ani{opacity: 1;
+                transform: translate(0,0);}
+
+
+
+/*btn*/
+.company_text .more_btn {border: 1px solid #fff;
+                         background-color:rgba(0,0,0,0.4);
+                         color:#fff;}
+
+.company_text .more_btn:focus,
+.company_text .more_btn:hover{background-color: rgba(255,255,255,0.9); 
+                               color:#000;}
+

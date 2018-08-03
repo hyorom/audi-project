@@ -1,0 +1,92 @@
+  /*a4_galleryBox_768*/
+
+
+ @media screen and (min-width: 481px) and (max-width: 768px) { 
+
+#a4_galleryBox {position:relative;
+                width:100%;
+                height:182.2916666666667vw; /*1400*/
+                min-height:75rem; /*1200*/
+                background-color:#eee;}
+
+/*=btn=*/
+.a4_gallery_btn {display:none;}
+
+
+/*==gallery==*/
+
+.a4_gallery_wrap {margin:auto;
+                  padding-top:10rem;
+                  width:85%;
+                  height:136.71875vw; /*1050*/
+                  min-height:43.75rem; /*700*/}
+
+
+/*==gallery_function==*/
+
+.gallery_function {width:100%; 
+                   height: auto;}
+
+.gallery_function > h3 {float:left;
+                       width:auto;
+                       height: auto;
+                       margin-right:1rem;}
+
+.gallery_function > p {float:left;
+                      width:auto;
+                      height:auto;
+                      font-weight: bold;}
+
+ /*==tabBtn==*/
+.tab_btn {float:right;}
+.tab_btn > button {float:left; font-weight: bold;}
+
+
+/*gallery_img*/
+
+.a4_gallery {padding-top: 3rem;
+             width:100%;
+             height:100%;}
+
+.a4_img {float:left;
+         width:48%; 
+         height:22.8vw; 
+         margin-bottom:3%;
+         background-repeat:no-repeat;
+         background-size:100%;
+         background-position:center;}
+
+
+.a4_gallery > li:nth-child(2n-1){float:left;}
+.a4_gallery > li:nth-child(2n){float:right;}
+
+
+
+/*==more btn*/
+.gallery_more_btn {margin:auto;
+                   width:140px;
+                   height:50px;
+                   color:#eee;
+                   background-color:#222;
+                   transition: all 500ms linear;}
+
+.gallery_more_btn:focus,
+.gallery_more_btn:hover {border:1px solid #222;
+                         color:#222;
+                         background-color:#eee;
+                         transition: all 500ms linear;}
+
+/*==modal==*/
+
+.a4_modal_box {width:85%; height:40vw;
+               border:5px solid #000; position:fixed;
+               top:50%; margin-top:-20vw; left:6.5%; z-index:500;
+               background-repeat: no-repeat;
+               background-size:100%;
+               background-position:center center;}
+
+.a4_modal_bg {width:100%; height:100%;
+             background-color:rgba(0,0,0,0.9);
+             position:fixed; top:0; left:0; z-index:300;}
+
+ }

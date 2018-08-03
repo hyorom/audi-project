@@ -1,0 +1,97 @@
+/*a4_galleryBox_480*/
+
+@media screen and (max-width: 480px) { 
+
+
+
+#a4_galleryBox {position:relative;
+                width:100%;
+                height:395.8333333333333vw; /*1900*/
+                min-height:87.5rem; /*1400*/
+                background-color:#eee;}
+
+/*=btn=*/
+.a4_gallery_btn {display:none;}
+
+
+/*==gallery==*/
+
+.a4_gallery_wrap {margin:auto;
+                  padding-top:8rem;
+                  width:85%;
+                  height:306.25vw; /*1470*/
+                  min-height:43.75rem; /*700*/}
+
+
+/*==gallery_function==*/
+
+.gallery_function {width:100%; 
+                   height: auto;}
+
+.gallery_function > h3 {width:100%;
+                        height: auto;
+                        margin-bottom:1rem;
+                        text-align: center;}
+
+.gallery_function > p {width:100%;
+                       height:auto;
+                       text-align: center;
+                       font-weight: bold;}
+
+ /*==tabBtn==*/
+.tab_btn {display: none;}
+
+
+
+/*gallery_img*/
+
+.a4_gallery {padding-top: 3rem;
+             width:100%;
+             height:100%;}
+
+.a4_img {
+         width:100%; 
+         height:15%; 
+         margin-bottom:5%;
+         background-repeat:no-repeat;
+         background-size:100%;
+         background-position:center;}
+
+.a4_gallery > li:nth-child(6){display: none;}
+.a4_gallery > li:nth-child(7){display: none;}
+.a4_gallery > li:nth-child(8){display: none;}
+.a4_gallery > li:nth-child(9){display: none;}
+
+
+
+/*==more btn*/
+.gallery_more_btn {margin:auto;
+                   width:120px;
+                   height:45px;
+                   color:#eee;
+                   background-color:#222;
+                   transition: all 500ms linear;}
+
+
+.gallery_more_btn:focus,
+.gallery_more_btn:hover {border:1px solid #222;
+                         color:#222;
+                         background-color:#eee;
+                         transition: all 500ms linear;}
+
+
+/*==modal==*/
+
+.a4_modal_box {width:85%; height:40vw;
+               border:5px solid #000; position:fixed;
+               top:50%; margin-top:-20vw; left:6.5%; z-index:500;
+               background-repeat: no-repeat;
+               background-size:100%;
+               background-position:center center;}
+
+.a4_modal_bg {width:100%; height:100%;
+             background-color:rgba(0,0,0,0.9);
+             position:fixed; top:0; left:0; z-index:300;}
+
+ }
+

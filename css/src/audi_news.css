@@ -1,0 +1,16 @@
+/*audi_news.css*/
+
+
+/*---korea---*/
+@import url("./news/koreaBox/koreaBox_1920.css");
+@import url("./news/koreaBox/koreaBox_1366.css");
+@import url("./news/koreaBox/koreaBox_768.css");
+@import url("./news/koreaBox/koreaBox_480.css");
+
+
+
+/*---news---*/
+@import url("./news/newsBox/newsBox_1920.css");
+@import url("./news/newsBox/newsBox_1366.css");
+@import url("./news/newsBox/newsBox_768.css");
+@import url("./news/newsBox/newsBox_480.css");

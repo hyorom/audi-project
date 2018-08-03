@@ -1,0 +1,29 @@
+/*audi_company_1920.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+#companyBox{position:relative;
+            width:100%;
+            height:36.60322108345534vw; /*(500/1366*100)*/
+            min-height:25rem; /*400*/
+            }
+
+
+/*text*/  
+
+.company_text { position:absolute; top:6rem; left:50%; 
+                 margin-left:-200px;
+                 width:400px; height:400px; }
+
+/*bg*/
+
+.company_bg {
+              width:100%; height:100%; 
+              background-image:url("../../../../img/main/company/company_bg_pc.png");
+              background-repeat:no-repeat;
+              background-size:cover;
+              background-position:center center;}
+
+
+
+} 

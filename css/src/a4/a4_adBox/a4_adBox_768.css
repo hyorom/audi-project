@@ -1,0 +1,34 @@
+/*a4_adBox_768.css*/
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+#a4_adBox {height:123.6979166666667vw; /*950px*/
+           min-height:50rem;/*800px*/}
+
+
+
+ 
+
+/*text*/
+
+.a4_adBox_text{bottom:8rem; }
+
+.a4_adBox_text > h2 {font-size: 1.5rem;
+                    padding-bottom: 3rem;}
+
+
+.a4_adBox_text > p {font-size: 0.9rem;
+                    line-height: 1.8rem;}
+
+
+/*bg*/
+
+.a4_adBox_bg{ background-image:url("../../../../img/a4/a4_ad/a4_ad_bg_tab.png");}
+
+
+.mob{display:none;}
+.pc{display: none;}
+
+
+}

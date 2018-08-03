@@ -1,0 +1,44 @@
+/*audi_a6.css*/
+
+
+
+
+/*---a6_adBox---*/
+@import url("./a6/a6_adBox/a6_adBox_all.css");
+@import url("./a6/a6_adBox/a6_adBox_1920.css");
+@import url("./a6/a6_adBox/a6_adBox_1366.css");
+@import url("./a6/a6_adBox/a6_adBox_768.css");
+@import url("./a6/a6_adBox/a6_adBox_480.css");
+
+
+/*---a6_designBox---*/
+
+@import url("./a6/a6_designBox/a6_designBox_1920.css");
+@import url("./a6/a6_designBox/a6_designBox_1366.css");
+@import url("./a6/a6_designBox/a6_designBox_768.css");
+@import url("./a6/a6_designBox/a6_designBox_480.css");
+
+
+
+/*---a6_driveBox---*/
+
+@import url("./a6/a6_driveBox/a6_driveBox_1920.css");
+@import url("./a6/a6_driveBox/a6_driveBox_1366.css");
+@import url("./a6/a6_driveBox/a6_driveBox_768.css");
+@import url("./a6/a6_driveBox/a6_driveBox_480.css");
+
+
+/*---a6_choiceBox---*/
+@import url("./a6/a6_choiceBox/a6_choiceBox_all.css");
+@import url("./a6/a6_choiceBox/a6_choiceBox_1920.css");
+@import url("./a6/a6_choiceBox/a6_choiceBox_1366.css");
+@import url("./a6/a6_choiceBox/a6_choiceBox_768.css");
+@import url("./a6/a6_choiceBox/a6_choiceBox_480.css");
+
+
+/*---a6_galleryBox---*/
+@import url("./a6/a6_galleryBox/a6_galleryBox_all.css");
+@import url("./a6/a6_galleryBox/a6_galleryBox_1920.css");
+@import url("./a6/a6_galleryBox/a6_galleryBox_1366.css");
+@import url("./a6/a6_galleryBox/a6_galleryBox_768.css");
+@import url("./a6/a6_galleryBox/a6_galleryBox_480.css");

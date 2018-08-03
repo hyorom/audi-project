@@ -1,0 +1,24 @@
+/*audi_model_1920.css*/
+
+@media screen and (min-width: 1367px) {
+ 
+#modelBox{width:100%; 
+          height: 400px; 
+          background-color:#fff;}
+
+/*text*/
+
+.model_text{ padding-top: 5rem;
+             margin:auto;
+             width:400px; 
+             height:200px; }
+
+.model_text h2{font-size:2.5rem; }
+
+ 
+/*btn*/
+.model_text .more_btn:hover {background-color:rgba(0,0,0,0.8);} 
+
+
+
+} 

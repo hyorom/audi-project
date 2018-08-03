@@ -1,0 +1,54 @@
+/*a6_driveBox_1920.css*/
+
+
+@media screen and (min-width: 1367px) {  
+
+#a6_driveBox {position:relative;
+              margin:auto;
+              width:85%;
+              height:46.875vw;/*900/1920*/}
+
+/*text*/
+.a6_drive_text {position:absolute;
+                top:10%;
+                width:100%;
+                height:auto;}
+
+.a6_drive_text > h2 {font-size:2.5rem;
+                     text-align:center;
+                     padding-bottom:3rem;}
+
+
+/*btn*/
+.driveBtn  {  display:block; 
+              margin:auto;
+              width:135px; height: 45px; 
+              border:1px solid #000;
+              color:#000; 
+              background-color:rgba(255,255,255,0.5);
+              transition: all 500ms linear;}   
+
+ .driveBtn:focus,                           
+ .driveBtn:hover{
+                  font-weight: bold;
+                  color:#fff;
+                  background-color: #000;
+                  transition: all 500ms linear;}
+
+
+
+
+/*bg*/
+.a6_drive_bg { width:100%; height:100%;
+               background-size:110%;
+               background-repeat: no-repeat;
+               background-position:center top;
+               background-image:url("../../../../img/a6/a6_drive/a6_drive.png");
+               transition:all 500ms ease;}
+
+
+.a6_drive_bg:focus,
+.a6_drive_bg:hover {background-size:120%;
+                   transition:all 500ms ease;}
+
+}

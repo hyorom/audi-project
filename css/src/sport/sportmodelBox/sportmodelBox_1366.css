@@ -1,0 +1,81 @@
+/*sportmodelBox_1366.css*/
+
+
+@media screen and (min-width: 769px) and (max-width: 1367px) { 
+
+#sportmodelBox {width:100%; 
+                height:73.20644216691069vw; /*1000/1366*/
+                min-height:45rem;}
+
+
+/*text*/
+ .sportmodel_text{width:auto;
+                  height:auto;
+                  margin:auto;
+                  padding:8% 0 8%;}
+
+  .sportmodel_text >h2 {width:auto; 
+                        height:auto;
+                        font-size: 2rem;
+                        font-weight: bold;
+                        text-align: center;
+                        padding-bottom:2rem;}
+
+  .sportmodel_text >p{width:auto;
+                      height:auto;
+                      font-size: 1rem;
+                      font-weight: bold;
+                      text-align: center;
+                      margin:auto;}
+
+
+/*img*/
+.sportmodel_img {width:100%;
+                height:40%;}
+
+
+.sportmodel_img > div {position:absolute;
+                       left:25%;
+                       width:50%;
+                       height:60%;
+                       transition:all 1500ms ease;
+                       background-repeat: no-repeat;
+                       background-position: center; 
+                       transform: scale(0.8);  }
+
+
+
+.sportmodel_img_01{z-index:500; opacity: 1; 
+                   background-size:90%;
+                   background-image:url("../../../../img/sport/sportmodel/sport_car_011.png");}
+
+.sportmodel_img_02{z-index:400; opacity: 0;
+                   background-size:70%; 
+                    background-image:url("../../../../img/sport/sportmodel/sport_car_022.png");}
+.sportmodel_img_03{z-index:300; opacity: 0;
+                   background-size:50%; 
+                   background-image:url("../../../../img/sport/sportmodel/sport_car_033.png");}
+
+.sportmodel_img:focus,
+.sportmodel_img:hover div{transition:all 1500ms ease; opacity: 1;  }
+
+.sportmodel_img:focus,
+.sportmodel_img:hover div:nth-child(1) {transform:translate(80%, 15%);}
+
+.sportmodel_img:focus,
+.sportmodel_img:hover div:nth-child(2) {transform:translate(-10%, 0);}
+
+.sportmodel_img:focus,
+.sportmodel_img:hover div:nth-child(3) {transform:translate(-80%, -15%);}
+
+
+
+
+
+
+
+
+
+.mob{display: none;}
+}
+

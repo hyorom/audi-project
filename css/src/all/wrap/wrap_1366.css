@@ -1,0 +1,10 @@
+
+/*audi_wrap_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+#wrap{ position:relative; width:100%; height:100%;}
+
+}
+
+

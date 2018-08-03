@@ -1,0 +1,76 @@
+/*audi_index.css*/
+
+
+
+
+/*---adBox---*/
+
+@import url("./main/allBox/allBox_1920.css");
+@import url("./main/allBox/allBox_1366.css");
+@import url("./main/allBox/allBox_768.css");
+@import url("./main/allBox/allBox_480.css");
+
+
+
+/*---adBox---*/
+@import url("./main/adBox/adBox_all.css");
+@import url("./main/adBox/adBox_1920.css");
+@import url("./main/adBox/adBox_1366.css");
+@import url("./main/adBox/adBox_768.css");
+@import url("./main/adBox/adBox_480.css");
+
+
+
+/*---techBox---*/
+@import url("./main/techBox/techBox_all.css");
+@import url("./main/techBox/techBox_1920.css");
+@import url("./main/techBox/techBox_1366.css");
+@import url("./main/techBox/techBox_768.css");
+@import url("./main/techBox/techBox_480.css");
+
+
+/*---qurttroBox---*/
+@import url("./main/qurttroBox/qurttroBox_all.css");
+@import url("./main/qurttroBox/qurttroBox_1920.css");
+@import url("./main/qurttroBox/qurttroBox_1366.css");
+@import url("./main/qurttroBox/qurttroBox_768.css");
+@import url("./main/qurttroBox/qurttroBox_480.css");
+
+
+
+/*---designBox---*/
+@import url("./main/designBox/designBox_all.css");
+@import url("./main/designBox/designBox_1920.css");
+@import url("./main/designBox/designBox_1366.css");
+@import url("./main/designBox/designBox_768.css");
+@import url("./main/designBox/designBox_480.css");
+
+
+
+/*---modelBox---*/
+@import url("./main/modelBox/modelBox_all.css");
+@import url("./main/modelBox/modelBox_1920.css");
+@import url("./main/modelBox/modelBox_1366.css");
+@import url("./main/modelBox/modelBox_768.css");
+@import url("./main/modelBox/modelBox_480.css");
+
+
+
+/*---companyBox---*/
+@import url("./main/companyBox/companyBox_all.css");
+@import url("./main/companyBox/companyBox_1920.css");
+@import url("./main/companyBox/companyBox_1366.css");
+@import url("./main/companyBox/companyBox_768.css");
+@import url("./main/companyBox/companyBox_480.css");
+
+
+
+
+/*---sportBox---*/
+@import url("./main/sportBox/sportBox_all.css");
+@import url("./main/sportBox/sportBox_1920.css");
+@import url("./main/sportBox/sportBox_1366.css");
+@import url("./main/sportBox/sportBox_768.css");
+@import url("./main/sportBox/sportBox_480.css");
+
+

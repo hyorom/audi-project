@@ -1,0 +1,26 @@
+/*a6_adBox_1920.css*/
+
+
+@media screen and (min-width: 1367px) {  
+
+
+#a6_adBox{height:52.08333333333333vw;/*1000*/
+          min-height:48.125rem; /*770*/}
+
+
+/*text*/
+.a6_adBox_text{top:15rem;}
+
+.a6_adBox_text > h2 {font-size: 3.5rem;
+                     padding-bottom:2rem;}
+
+.a6_adBox_text > p {font-size: 1.2rem;}
+
+
+/*bg*/
+.a6_adBox_bg{background-image:url("../../../../img/a6/a6_ad/a6_ad_bg.png");}
+
+
+.mob{display:none;}
+
+}

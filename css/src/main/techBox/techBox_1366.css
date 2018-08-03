@@ -1,0 +1,28 @@
+/*audi_tech_1366.css*/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+
+ #techBox {position:relative; 
+            width:100%;
+            height:109.809663250366vw; /*1500*/
+            min-height:75rem;/*1200*/
+            background-color:#000;}
+
+
+/*text*/
+.tech_text{ position:absolute; 
+            top:13rem; left:50%; 
+            margin-left:-350px;
+            width:700px; height:400px;}
+
+
+
+/*bg*/
+.tech_bg {
+          background-image:url("../../../../img/main/tech/tech_bg_pc.png");
+          background-position:center bottom;}
+
+
+
+
+
+}

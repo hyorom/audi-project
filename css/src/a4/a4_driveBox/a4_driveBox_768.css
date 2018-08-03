@@ -1,0 +1,86 @@
+/*a4_driveBox_768.css*/
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+
+
+#a4_driveBox {
+              width:100%; 
+              height:200vw;/*1536*/
+              min-height:60rem; /*960*/}
+
+
+
+/*구간나누기*/
+
+.a4_drive_wrap {width:100%;
+                height:100%;}
+
+.a4_gallery{position:relative; width:100%; height:50%;} 
+.a4_drive{position:relative;  width:100%; height:50%;}               
+
+
+/*text*/
+
+
+.a4_drive_wrap  h2 {width:auto;
+                    height: auto;
+                    color:#eee;
+                    font-weight:bold;
+                    font-size: 1.8rem;
+                    text-align:center;
+                    padding-bottom:3rem;}
+
+.drive_text {position:absolute;
+             left:50%;
+             margin-left:-12%;
+             top:30%; 
+             width:auto;
+             height:auto;}
+
+.text_01 {margin-left:-75px;}
+.text_02 {margin-left:-91.5px;}
+
+
+
+
+/*btn*/
+.driveBtn{display:block;
+          margin:auto;
+          width:150px; height:45px; 
+          border:1px solid #fff;
+          color:#eee;
+          background-color:rgba(255,255,255,0.2);
+          transition: all 500ms linear;}
+
+.driveBtn:focus,                           
+.driveBtn:hover{font-weight: bold;
+                color:#fff;
+                border:0;
+                background-color:rgba(0,0,0,0.8);
+                transition: all 500ms linear;
+                font-size:0.9rem;}
+          
+
+
+
+/*bg*/
+
+.a4_drive_wrap div {transition:all 500ms ease;
+                    background-repeat:no-repeat;
+                    background-size: 110%;
+                    background-position:center center;}
+
+.a4_gallery_bg {width:100%; height:100%;
+                background-image:url("../../../../img/a4/a4_drive/a4_gallery_bg_tab.png");}
+
+.a4_drive_bg {width:100%; height:100%;
+              background-image:url("../../../../img/a4/a4_drive/a4_drive_bg_tab.png");}      
+
+
+
+.a4_drive_wrap div:hover {background-size:120%;
+                          transition:all 500ms ease;}
+
+}

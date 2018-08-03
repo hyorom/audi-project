@@ -1,0 +1,24 @@
+/*a6_adBox_480.css*/
+
+
+
+@media screen and (max-width: 480px) { 
+
+
+#a6_adBox{height:156.25vw;/*750/480*/
+         min-height:42.5rem; /*680*/}
+
+
+/*text*/
+.a6_adBox_text{top:9rem;}
+
+.a6_adBox_text > h2 {font-size:2.7rem;
+                     padding-bottom:2.2rem;}
+
+.a6_adBox_text > p {font-size: 1rem;}
+
+
+/*bg*/
+.a6_adBox_bg{background-image:url("../../../../img/a6/a6_ad/a6_ad_bg_mob.png");}
+
+}

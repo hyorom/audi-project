@@ -1,0 +1,78 @@
+
+/*audi_head_1366.css*/
+
+#wrap{overflow-x: hidden;}
+
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+    
+
+    /*headBox*/ 
+  .headBox_wrap{ position:absolute; z-index:500; 
+                 width:100%; height:60px; background-color:rgba(0,0,0,0.9);}
+
+  #headBox {margin:auto; width:80%; height:inherit;}
+  
+
+    /*h1*/
+  h1 {float:left; width:85px; height:inherit;
+      background-image:url("../../../../img/audi_logo.png");
+      background-repeat:no-repeat;
+      background-size:80%;
+      background-position:center center;}
+
+
+    /*gnb*/
+  #menuBtn{display: none;}
+  #gnb{float:right; margin-top: 1.2rem; width:80%; height:auto; }
+  #gnb ul {float:left; width:100%; height:auto;}
+  #gnb li {float:left; margin-right:8%;
+           width:3%; height:auto; 
+           }
+
+  #gnb li a { width:100%; height: inherit;
+            color:#fff; font-size: 1rem;
+             font-weight:bold; }
+
+
+  #gnb li:nth-child(1) {margin-right:10%;}
+  #gnb li:nth-child(9) {margin-right:0;}
+
+
+
+/*==drop_menu==*/
+
+#gnb_drop_menu {position: absolute; 
+                top:60px; 
+                padding-top:4rem;
+                height:auto;
+                width: auto;}
+
+
+#gnb_drop_menu>dl{float: left; margin-right:7%;}
+
+#gnb_drop_menu >dl:nth-of-type(4){margin-right:0;}
+
+#gnb_drop_menu>dl a {display: block;} 
+
+.gnb_title {margin-bottom:2rem;
+            color:#eee; 
+            font-size:1rem;
+            font-weight: bold;;}
+
+
+#gnb_drop_menu>dl> dd> a {margin-bottom:1rem;
+                           color:#ddd; font-size:0.9rem;
+                          font-weight: lighter;}
+
+
+#headBox > .dropBg {width:100%;}
+
+/*hover*/
+#headBox a:focus,
+#headBox a:hover{color:rgb(187,10,48);}
+
+
+
+}
+

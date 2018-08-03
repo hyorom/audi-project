@@ -1,0 +1,49 @@
+/*audi_all_768.css*/
+
+@media screen and (max-width: 480px) {
+
+
+/*text*/
+
+
+ h2 {margin-bottom:20px; 
+     text-align:center; 
+     font-size:2rem; 
+     font-weight:bold; 
+     color:#000;}
+
+
+ h3 {margin-bottom:40px; 
+     text-align:center; 
+     font-size:1rem; 
+     line-height:1.4rem;
+     color:#000;}
+
+
+p {margin-bottom:40px; 
+   text-align:center; 
+   font-size:0.9rem;
+   line-height:1.5rem;  
+   color:#000;}
+
+
+/*btn*/
+.more_btn {display:block; position:absolute; 
+           left:50%; margin-left:-65px;
+           width:140px; height:50px;
+           border: 1px solid #000; 
+           font-size: 0.9rem;
+           background-color: rgba(255,255,255,0.9);
+           color:#000;
+           transition:all 300ms linear; }
+
+.more_btn:focus,
+.more_btn:hover{font-weight:bold; 
+                background-color:rgba(0,0,0,0.9); 
+                 color:#fff;
+                 transition:all 300ms linear;}
+
+
+
+
+}

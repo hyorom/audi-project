@@ -1,0 +1,22 @@
+/*audi_all.css*/
+
+
+/*---wrap---*/
+@import url("./all/wrap/wrap_1920.css");
+@import url("./all/wrap/wrap_1366.css");
+@import url("./all/wrap/wrap_768.css");
+@import url("./all/wrap/wrap_480.css");
+
+
+/*---headBox---*/
+@import url("./all/headBox/headBox_1920.css");
+@import url("./all/headBox/headBox_1366.css");
+@import url("./all/headBox/headBox_768.css");
+@import url("./all/headBox/headBox_480.css");
+
+
+/*---footBox---*/
+@import url("./all/footBox/footBox_1920.css");
+@import url("./all/footBox/footBox_1366.css");
+@import url("./all/footBox/footBox_768.css");
+@import url("./all/footBox/footBox_480.css");

@@ -1,0 +1,29 @@
+/*a4_adBox_all.css*/
+
+
+
+#a4_adBox {position:relative;
+           width:100%; 
+           background-color:#000;}
+
+
+/*text*/ 
+
+.a4_adBox_text{position:absolute;
+               width:100%; 
+               height: auto;}
+
+.a4_adBox_text > h2 {color:#eee;
+                     font-weight: bold;
+                     text-align:center;}
+
+.a4_adBox_text > p {color:#eee;
+                    text-align:center;}
+
+/*bg*/
+
+.a4_adBox_bg{width:100%; height: 100%;
+             background-size:100%;
+             background-position:center top;
+             background-repeat:no-repeat;}
+

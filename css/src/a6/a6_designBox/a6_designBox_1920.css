@@ -1,0 +1,88 @@
+/*a6_designBox_1920.css*/
+
+
+@media screen and (min-width: 1367px) {  
+
+
+#a6_designBox {width:100%;
+               height:138.0208333333333vw;/*2650/1920*/}
+
+
+/*content*/
+.a6_design_wrap {padding-top:8%;
+                 margin:auto;
+                 width:85%; 
+                 height:58%;}
+
+
+.a6_design_wrap > ul {width:100%;
+                      height:100%;}
+
+
+.a6_design_wrap > ul > li{float:left;
+                          width:100%;
+                          height:50%;}
+
+
+.a6_design_img {width:50%; 
+                height:100%;
+                background-size:100%;
+                background-repeat:no-repeat;
+                background-position:center top;}
+
+
+.a6_design_img_01  {float:left;
+                   background-image:url("../../../../img/a6/a6_design/a6_design_01.png");} 
+
+.a6_design_img_02  {float:right;
+                   background-image:url("../../../../img/a6/a6_design/a6_design_02.png");}    
+
+.a6_design_img_03  {float:left;
+                   background-image:url("../../../../img/a6/a6_design/a6_design_03.png");}    
+
+
+/*text*/
+.a6_design_text{box-sizing:border-box;
+                float:left;
+                width:auto;
+                height:auto;}
+
+
+.a6_design_text_01{ padding:10% 0 0 7%;}    
+
+.a6_design_text_02{ padding:12% 0 0 5%;}   
+
+.a6_design_text_03{ padding:12% 0 0 7%;}                
+
+.a6_design_wrap > ul > li  dl {width:100%; 
+                               height:auto;}
+
+.a6_design_wrap > ul > li  dl > dt {font-size:2rem;
+                                     font-weight:bold;
+                                     color:#333;
+                                     padding-bottom:3rem;}
+
+.a6_design_wrap > ul > li  dl > dd {font-size:1rem;
+                                     line-height:1.8rem;
+                                     font-weight:bold;
+                                     color:#333;
+                                     padding-bottom:2rem;}
+
+
+/*Btn*/
+
+ .designBtn  {width:150px; height: 50px; 
+              border:1px solid #000;
+              color:#000;
+              background-color: #fff;
+              transition: all 500ms linear;}   
+
+ .designBtn:focus,                           
+ .designBtn:hover{font-weight: bold;
+                  color:#fff;
+                  background-color: #000;
+                  transition: all 500ms linear;}
+
+
+.mob{display:none;}
+}

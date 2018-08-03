@@ -1,0 +1,35 @@
+
+
+/*audi_sport_480.css*/
+
+@media screen and (max-width: 480px) {
+
+#sportBox{position:relative;
+          width:100%; 
+          height:197.9166666666667vw; /*950*/
+          min-height: 47.5rem; /*760px*/
+          background-color:#fff;}
+
+
+/*text*/
+
+.sport_text { position:absolute; 
+              top:7rem; left:50%; 
+              margin-left: -140px; 
+              width:280px; height:400px; }
+
+ 
+
+
+/*bg*/
+
+.sport_bg {
+          width:100%; height:100%; 
+          background-image:url("../../../../img/main/sport/sport_bg_mob.png");
+          background-repeat:no-repeat;
+          background-size:100%;
+          background-position:center bottom;}
+
+
+
+} 

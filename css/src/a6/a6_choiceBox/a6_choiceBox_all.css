@@ -1,0 +1,48 @@
+/*a6_choiceBox_all.css*/
+
+
+
+#a6_choiceBox > h2 {width:100%;
+                    height:auto;
+                    color:#000;}
+
+
+
+
+
+/*choice_wrap*/
+.a6_choice_wrap {width:100%; height: auto;}
+.a6_choice_wrap >.a6_choice_content {margin:auto;
+                                     height: auto; }
+
+.a6_choice_wrap > .a6_outside { margin-bottom:7rem; }
+
+.a6_choice_content > h3 {color:#000; 
+                         margin:auto;}
+
+.a6_choice_content > h3:before {margin:auto;
+                                content: " "; display: block;
+                                width:10%; height: auto;      
+                                border-top: 1px solid #000;
+                                padding-bottom:1rem;}
+
+
+
+.a6_choice_content  h4 {width:auto;
+                        height:auto;
+                        color:#000;}
+
+.a6_choice_content  h5 {width:auto;
+                        height:auto;
+                        color:#000;}                     
+
+
+
+.a6_outside_color_detail{width:auto;
+                         height:auto;
+                         text-align:left;
+                         font-size:1rem;
+                         padding-bottom:1.5rem;}
+
+
+

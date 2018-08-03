@@ -1,0 +1,55 @@
+/*koreaBox_768.css*/
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+
+#koreaBox{width:100%; 
+          height:100%;}
+
+#korea_text_wrap{width:100%;
+                  height:100%;}
+
+
+.korea {width:100%;
+        height:100%;
+        background-repeat:no-repeat;
+        background-size:cover;}
+
+
+/*bg*/
+
+.korea_bg {width:100%; 
+           height:100%;
+           background-image:url("../../../../img/news/korea/korea_bg_tab.png");
+           background-position:center top;}
+
+/*text*/
+
+.korea_text {background-image:url("../../../../img/news/korea/korea_text.png");
+             background-position:center center;}
+
+.korea_text > h2 {padding-top:30%;
+                  margin-bottom:3rem;
+                  font-size:1.9rem;
+                  color:#eee;
+                  font-weight:bold;
+                  text-align: center;}
+
+.korea_text > p {font-size:1rem;
+                  color:#eee;
+                  text-align: center;
+                  line-height:1.8rem;}
+
+.korea_text > .text_01{margin-bottom:1.5rem;}
+
+
+
+
+
+.pc{display:none;}
+.mob{display: none;}
+
+
+
+}

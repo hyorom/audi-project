@@ -1,0 +1,26 @@
+/*a6_adBox_768.css*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+ 
+
+#a6_adBox{height:109.375vw;/*840/768*/
+          min-height:43.75rem; /*700*/}
+
+
+/*text*/
+.a6_adBox_text{top:11rem;}
+
+.a6_adBox_text > h2 {font-size:2.7rem;
+                     padding-bottom:1.8rem;}
+
+.a6_adBox_text > p { font-size: 1rem;}
+
+
+/*bg*/
+.a6_adBox_bg{background-image:url("../../../../img/a6/a6_ad/a6_ad_bg_tab.png");}
+
+
+
+
+.mob{display:none;}
+ }

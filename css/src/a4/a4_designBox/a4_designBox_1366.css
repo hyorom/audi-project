@@ -1,0 +1,133 @@
+/*a4_designBox_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+
+
+
+#a4_designBox {width:100%; 
+              height:100.0732064421669vw; /*1367*/
+              min-height:48.75rem; /*780*/}
+
+
+
+/*ul*/
+
+.a4_design_wrap {padding-top:8%;
+                 margin:auto;
+                 width:85%; 
+                 height:85%;}
+
+.a4_design_wrap > ul {width:100%; 
+                      height:100%;}
+
+.a4_design_wrap > ul > li {
+                           float:left;
+                           width:100%;
+                           height:49%;}
+
+
+.design_image { width:50%; height:100%;
+                background-size:100%;
+                background-repeat: no-repeat;
+                background-position:center top;}
+
+.design_image_01  {float:left;
+                   background-image:url("../../../../img/a4/a4_design/a4_design_01_pc.png");} 
+
+.design_image_02  {float:right;
+                   background-image:url("../../../../img/a4/a4_design/a4_design_02_pc.png");}    
+
+
+/*text*/
+
+
+.design_text{box-sizing: border-box;
+             float:left;
+             width:50%;
+             height:auto;}
+
+.design_text_01{padding:10% 0 0 7%;}
+
+.design_text_02 {padding:8% 0 0 5%;}                  
+
+.a4_design_wrap > ul > li  dl {width:auto; 
+                               height:100%;}
+
+.a4_design_wrap > ul > li  dl > dt {width:auto;
+                                    font-size:1.8rem;
+                                    line-height:2.6rem;
+                                    font-weight:bold;
+                                    color:#333;
+                                    padding-bottom:2rem;}
+
+.a4_design_wrap > ul > li  dl > dd {font-size:1rem;
+                                    line-height:1.8rem;
+                                    font-weight:bold;
+                                    color:#333;
+                                    padding-bottom:3rem;}
+
+
+/*Btn*/
+
+ .designBtn  {font-size:0.7rem;
+              width:135px; height:50px; 
+              border:1px solid #000;
+              color:#000;
+              background-color: #fff;
+              transition: all 500ms linear;}   
+
+ .designBtn:focus,                           
+ .designBtn:hover{font-size:0.8rem;
+                  font-weight: bold;
+                  color:#fff;
+                  background-color: #000;
+                  transition: all 500ms linear;}
+
+
+.mob{display:none;}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width:1080px) {
+
+.design_text_01{padding:9% 0 0 7%;}
+.design_text_02 {padding:6% 0 0 6%;}                  
+
+
+
+.a4_design_wrap > ul > li  dl > dt {font-size:1.5rem;
+                                    line-height:2rem;}
+
+.a4_design_wrap > ul > li  dl > dd {font-size:0.9rem;
+                                    letter-spacing:-0.5px;
+                                    padding-bottom:2.5rem;}
+
+
+.designBtn  {width:130px; height:45px;}
+
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width:950px) {
+
+.design_text_01{padding:8% 0 0 8%;}
+.design_text_02 {padding:8% 0 0 4%;}                  
+
+
+
+.a4_design_wrap > ul > li  dl > dt {font-size:1.3rem;
+                                    line-height:1.7rem;
+                                    padding-bottom:1.7rem;}
+
+.a4_design_wrap > ul > li  dl > dd {font-size:0.8rem;
+                                    line-height:1.5rem;
+                                    padding-bottom:1.5rem;}
+
+
+.designBtn  {width:110px; height:40px;}
+
+
+}

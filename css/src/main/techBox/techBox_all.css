@@ -1,0 +1,34 @@
+/*techBox_all.css*/
+
+/*text*/
+.tech_text h2 {color:#fff;}
+.tech_text h3 {color:#fff;}
+.tech_text p  {color:#fff;}
+
+
+
+
+.tech_text{opacity:0;
+            transform:translateY(5rem); 
+            transition: all 800ms linear;} 
+
+#techBox .ani{opacity: 1;
+              transform: translate(0,0);}
+
+
+
+/*btn*/
+.tech_text .more_btn {border: 1px solid #fff;
+                      background-color:rgba(0,0,0,0.2);
+                      color:#fff;}
+
+.tech_text .more_btn:focus,
+.tech_text .more_btn:hover{color:#000;
+                            background-color: rgba(255,255,255,0.7); }
+
+
+/*bg*/
+
+.tech_bg {width:100%; height:100%;
+          background-repeat:no-repeat;
+          background-size:100%;}

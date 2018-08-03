@@ -1,0 +1,26 @@
+/*audi_tech_1920.css*/
+@media screen and (min-width: 1367px) {
+ 
+
+ #techBox {position:relative; 
+            width:100%; 
+            height:105vw;/*1920*/
+            min-height:105rem;
+            background-color:#000;} 
+
+
+/*text*/
+
+.tech_text{ position:absolute; 
+            top:14%; left:50%; 
+            margin-left:-700px;
+            width:1400px; height:300px;}
+
+/*bg*/
+
+.tech_bg {background-image:url("../../../../img/main/tech/tech_bg.png");
+          background-position:center bottom;}
+
+
+
+}

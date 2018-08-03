@@ -1,0 +1,115 @@
+  /*a4_galleryBox_1366*/
+
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+#a4_galleryBox {position:relative;
+                width:100%;
+                height:81.99121522693997vw; /*1120*/
+                min-height:47.5rem; /*760*/
+                background-color:#eee;}
+
+
+
+
+/*==gallery==*/
+
+.a4_gallery_wrap {margin:auto;
+                  padding-top:10rem;
+                  width:75%;
+                  height:54.90483162518302vw; /*750*/}
+
+/*=btn=*/
+.a4_gallery_btn {position:absolute;
+                 top:48%;
+                 left:50%;
+                 margin-left:-43%;
+                 width:86%;
+                 height:10%;}
+
+.a4_gallery_btn >button { width:3%;
+                          height:50%;
+                          background-size:100%;
+                          background-repeat:no-repeat;
+                          background-position:center; }
+            
+.gallery_prev_btn {float:left;
+                   background-image:url("../../../img/Angle_left.png");}
+
+.gallery_next_btn {float:right;
+                   background-image:url("../../../img/Angle_right.png");}
+
+
+/*==gallery_function==*/
+
+.gallery_function {width:100%; 
+                   height: auto;}
+
+.gallery_function > h3 {float:left;
+                       width:auto;
+                       height: auto;
+                       margin-right:1rem;}
+
+.gallery_function > p {float:left;
+                      width:auto;
+                      height:auto;
+                      font-weight: bold;}
+
+ /*==tabBtn==*/
+.tab_btn {float:right;}
+
+.tab_btn > button {margin-left:1rem;
+                   width:auto; 
+                   height:auto;
+                   float:left; 
+                   font-weight: bold;}
+
+.tab_btn > button:focus,
+.tab_btn > button:hover{padding-bottom:0.2rem;
+                        border-bottom:2px solid #000;}
+
+
+
+/*gallery_img*/
+
+.a4_gallery {padding-top: 3rem;
+             width:100%;
+             height:100%;}
+
+.a4_img {float:left;
+         width:31.6%; 
+         height:10.523vw; 
+         margin-right:2.5%;
+         margin-bottom:3%; /*40*/
+         background-repeat:no-repeat;
+         background-size:100%;
+         background-position:center;  }
+
+.a4_gallery > li:nth-child(3n){margin-right:0;}
+
+
+
+/*==more btn*/
+.gallery_more_btn {display:none;}
+
+
+
+
+
+/*==modal==*/
+
+.a4_modal_box {width:85%; height:40vw;
+               border:5px solid #000; position:fixed;
+               top:50%; margin-top:-20vw; left:6.5%; z-index:500;
+               background-repeat: no-repeat;
+               background-size:100%;
+               background-position:center center;}
+
+.a4_modal_bg {width:100%; height:100%;
+             background-color:rgba(0,0,0,0.9);
+             position:fixed; top:0; left:0; z-index:300;}
+
+
+
+
+ }

@@ -1,0 +1,96 @@
+
+/*audi_ad_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+
+#adBox {width:100%; 
+        height:65.885797950219625vw;/*900*/
+        background-color:#000;}
+ 
+
+/*===indicator===*/
+.ad_indicator {position:absolute; 
+                z-index: 400;
+               bottom:2rem; top:auto; 
+               left:50%; margin-left:-40px;
+               width:80px; height:15px; }
+
+.ad_indicator li {float:left ; margin-right:25px;
+                  width:10px; height:10px;  
+                  }
+.ad_indicator li a {display: block; 
+                    width:100%; height:inherit; 
+                    border-radius: 100%; background-color:#fff;}             
+ 
+.ad_indicator li:nth-child(3){margin-right:0;}
+
+
+
+.ad_indicator li.active>a{background-color:rgba(187,10,48,0.9);}
+.ad_indicator li a:focus,
+.ad_indicator li a:hover{background-color:rgba(187,10,48,0.3);
+                         transition:all 00ms linear;}
+
+
+
+
+
+
+/*===banner===*/ 
+
+.ad_banner_wrap li { height:65.88579795021962vw;}
+
+.ad_banner_wrap li:nth-child(1){background-image:url("../../../../img/main/ad/01/ad_banner_01_pc.png");}
+.ad_banner_wrap li:nth-child(2){background-image:url("../../../../img/main/ad/02/ad_banner_02_pc.png");}
+.ad_banner_wrap li:nth-child(3){background-image:url("../../../../img/main/ad/03/ad_banner_03_pc.png");}
+
+
+
+
+/*===text===*/
+
+.ad_text{position:absolute; 
+         top:25%; left:10%; 
+         width:480px; height:350px;}
+
+.ad_text h3 {margin-bottom:2rem; 
+             color:#fff; font-size: 3rem;
+             line-height:4rem;
+             text-align: left;}
+
+.ad_text h4 {margin-bottom:2rem; 
+             color:#fff; font-size: 1.5rem;
+             font-weight: lighter;
+             text-align: left;}
+
+
+/*ad_text_02*/
+.ad_text_02 {position:absolute; 
+             top:39%; left:15%; 
+             width:780px; height:400px;}
+
+.ad_text_02>h3 {text-align:left;}
+.ad_text_02>h4{color:#fff;text-align:left;}
+
+
+
+
+
+/*===btn===*/              
+.ad_text_btn {width:270px; height:50px;}
+.ad_text_btn button{width:120px; height:40px;}
+
+
+.ticket_btn { width:450px; 
+              height:45px; 
+              font-size:1rem; }
+
+
+.ticket_btn:hover {font-size:1.02rem;}
+
+
+
+}
+
+

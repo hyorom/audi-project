@@ -1,0 +1,21 @@
+/*a6_galleryBox_1920.css*/
+
+
+@media screen and (min-width: 1367px) {  
+
+#a6_galleryBox {height:60vw;/*1152/1920*/
+                min-height:59.375rem; /*950*/}
+
+
+/*text*/
+.a6_gallery_text {top:12%;}
+
+.a6_gallery_text>h2 {font-size: 2rem;}
+
+
+
+/*bg*/
+.a6_gallery_bg{background-image: url("../../../../img/a6/a6_gallery/a6_gallery.png");}
+
+}
+ 

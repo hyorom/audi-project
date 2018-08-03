@@ -1,0 +1,32 @@
+/*/*newsBox_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+
+#a4_adBox {height:87.84773060029283vw;/*1250px*/
+           min-height:59.375rem;  /*950*/}
+
+ 
+
+/*text*/
+
+.a4_adBox_text{bottom:10rem;}
+
+.a4_adBox_text > h2 {font-size: 2rem;
+                    padding-bottom: 4rem;}
+
+.a4_adBox_text > p {font-size: 1rem;
+                    line-height: 2rem;}
+
+
+/*bg*/
+
+.a4_adBox_bg{background-image:url("../../../../img/a4/a4_ad/a4_ad_bg_pc.png");}
+
+
+.mob{display:none;}
+.tab{display: none;}
+
+
+
+}

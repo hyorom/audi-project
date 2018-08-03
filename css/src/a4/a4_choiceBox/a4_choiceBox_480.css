@@ -1,0 +1,120 @@
+/*a4_choiceBox_480.css*/
+
+
+@media screen and (max-width: 480px) { 
+
+#a4_choiceBox {width:100%; 
+               height:354.1666666666667vw; /*1700px*/
+               min-height:81.25rem; /*1300*/}
+
+
+#a4_choiceBox > h2 {width:100%;
+                    height:auto;
+                    font-size: 1.25rem;
+                    padding:40% 0 3% 0;
+                    text-align:center;}
+
+
+ 
+/*choice_wrap*/
+.a4_choice_wrap {width:100%; height: auto;}
+.a4_choice_wrap >.choice_content {margin:auto;
+                                  width:90%; /*700*/
+                                  height:auto; }
+
+.a4_choice_wrap > .outside { margin-bottom:12%; }
+
+.choice_content > h3 {width:100%;
+                      font-size:1rem;
+                      padding-bottom: 2rem;
+                      text-align: center;}
+
+.choice_content > h3:before {margin:auto;
+                             content: " "; display: block;
+                             width:10%; height: auto;      
+                             border-top: 1px solid #000;
+                             padding-bottom:1rem;}
+
+.choice_content  h4 {width:auto;
+                     height:auto;
+                     color:#000;
+                     font-size:1rem;}
+
+.choice_content  h5 {width:auto;
+                     height:auto;
+                     color:#000;
+                     font-size:0.9rem;
+                     padding-bottom:0.5rem;}
+
+
+.color_detail{width:auto;
+              height:auto;
+              font-size:0.9rem;
+              text-align:left;
+              padding-bottom:1.5rem;}
+
+
+
+/*==img==*/
+
+/*big_img*/
+.choice_big_img {margin:auto;}
+
+
+
+
+.outside_car { width:100%;/*825*/
+               height:62.5vw; /*300/480*/
+               min-height:12.5rem; /*200*/
+               margin-bottom:2rem;
+              overflow:hidden;}
+
+
+.outside_wrap{width:200%; height:100%;}
+.outside_wrap > div{width:50%; height:100%; float:left;}
+
+
+.inside_sheet {
+               width:100%;/*825*/
+               height:49.47916666666667vw; /*380/768*/
+               margin-bottom:2rem;
+                overflow:hidden;}
+
+.inside_wrap{width:200%; height:100%;}
+.inside_wrap > div{width:50%; height:100%; float:left;}
+
+
+
+
+
+/*thum_img*/
+.color_wrap {width:100%;
+             height: auto;
+             /*height:67vw; /*320*/
+             /*min-height:16.25rem; /*260*/}
+
+
+.outside_color{width:100%;
+               height:41.66666666666667vw; /*200*/
+               min-height:10rem; /*160*/ } 
+
+
+
+.inside_color{width:100%;
+              height:auto;
+              min-height:7.5rem;  /*120*/} 
+
+
+.color li {float:left;
+           width:15%;
+           height:13vw;
+           margin-right:1.5%;
+           margin-bottom:1.5%;
+           }             
+
+/*.color li:nth-of-type(5){margin-right:0;}*/
+
+
+
+
+}

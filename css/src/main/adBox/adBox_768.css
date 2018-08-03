@@ -1,0 +1,85 @@
+
+/*audi_ad_768.css*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+
+#adBox {position:relative; 
+        width:100%;
+        height:130.2083333333333vw; /*1000*/
+        background-color:#000;}
+
+
+
+/*======banner===*/ 
+
+.ad_banner_wrap li {height:130.2083333333333vw;}
+
+.ad_banner_wrap li:nth-child(1){background-image:url("../../../../img/main/ad/01/ad_banner_01_tab.png");}
+.ad_banner_wrap li:nth-child(2){background-image:url("../../../../img/main/ad/02/ad_banner_02_tab.png");}
+.ad_banner_wrap li:nth-child(3){background-image:url("../../../../img/main/ad/03/ad_banner_03_tab.png");}
+
+
+
+
+/*=====text======*/
+ 
+.ad_text{position:absolute; 
+         text-align: center;}
+
+.ad_text h3 {margin-bottom:1rem; 
+             color:#fff; 
+             font-size:2.3rem;
+             line-height:3.8rem; }
+
+
+.ad_text h4 {margin-bottom:2rem; 
+             color:#fff; 
+             font-size: 1rem;
+             font-weight: lighter;}
+
+
+/*ad_text_01*/
+.ad_text_01 {bottom:2rem; left:50%; 
+             margin-left:-250px;
+             width:500px; height:280px;}
+
+
+
+/*ad_text_02*/
+.ad_text_02 {bottom:4rem;left:50%; 
+            margin-left:-175px;
+             width:350px; height:300px;}
+
+
+
+/*ad_text_03*/
+
+.ad_text_03 {bottom:1rem;left:50%; 
+            margin-left:-150px;
+             width:300px; height:300px;}
+
+
+
+
+/*========btn=========*/
+.ad_text_btn {margin:auto; 
+              width:270px; 
+              height:30px;}
+
+.ad_text_btn button{width:120px; height:40px; }
+
+
+.ticket_btn { width:350px; 
+              height:45px; 
+              font-size:0.9rem; 
+              margin:auto;}
+
+
+.ticket_btn:hover { font-size:0.95rem; }
+
+
+}
+
+

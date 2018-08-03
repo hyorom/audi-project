@@ -1,0 +1,47 @@
+/*dtmBox_1366.css*/
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1367px) { 
+
+
+
+#dtmBox{position:relative;
+        width:100%;
+        height:73.20644216691069vw;/*1000/1366*/
+        min-height:45rem;}
+
+/*text*/
+
+.dtm_text {position:absolute;
+           top:5%;
+           width:100%;
+           height: auto;}
+
+
+.dtm_text > h2 {width:auto;
+                height:auto;
+                font-size:1.8rem;
+                font-weight: bold;
+                text-align:center;
+                padding-bottom: 2rem;}
+
+
+.dtm_text > p {width:auto;
+                height:auto;
+                font-size: 1rem;
+                font-weight: bold;
+                text-align: center;}
+
+
+  /*img*/
+.dtm_img{width:100%; height:100%;
+         background-size: 100%;
+          background-repeat: no-repeat;
+          background-position: center bottom;
+          background-image: url("../../../../img/sport/dtm/dtm_img_pc.png");}
+
+
+.mob{display: none;}
+}
+

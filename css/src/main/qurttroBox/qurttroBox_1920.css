@@ -1,0 +1,29 @@
+/*audi_qurttro_1920.css*/
+
+@media screen and (min-width: 1367px) {
+
+#qurttroBox{position:relative; 
+            width:100%; 
+            height:93.75vw; /*1800*/
+            min-height: 100rem;
+            background-color:#fff;}
+
+
+/*text*/
+
+.qurttro_text {position:absolute; 
+               top:20rem; left:50%; 
+               margin-left:-250px;
+               width:500px; height:400px;  }
+
+
+/*bg*/
+.qurttro_bg {padding-top:15rem;
+             width:100%; height:100%; 
+             background-image:url("../../../../img/main/qurttro/qurttro_bg.png");
+             background-position:center center;
+             background-repeat:no-repeat;
+             background-size:100%;}
+
+
+} 

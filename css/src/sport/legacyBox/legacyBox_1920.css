@@ -1,0 +1,71 @@
+/*legacyBox_1920.css*/
+
+
+@media screen and (min-width: 1367px) { 
+
+
+#legacyBox {width:100%;
+            height:52.08333333333333vw;/*1000/1920*/
+            min-height:50rem; /*800*/}
+
+
+.legacy_wrap {width:80vw;
+              min-width:56.25rem;/*900*/
+              height:65%; 
+              margin:auto;
+              padding-top:8%;
+              position:relative;}
+
+/*text*/
+.legacy_text {float:left;
+              width:50%;
+              height:100%;
+              box-sizing: border-box;
+              padding:10rem 0 0 8rem;
+}
+
+
+.legacy_text > h2 {width:auto;
+                   height:auto;
+                   font-size:2.5rem;
+                   font-weight: bold;
+                   padding-bottom: 2rem;}
+
+.legacy_text > p {width:auto;
+                   height:auto;
+                   font-size:1.1rem;
+                   font-weight: bold;}                   
+
+ /*img*/             
+
+.legacy_img {float:right;
+             width:50%;
+             height:100%;
+             transition:all 500ms ease;
+             transform:scale(0.8);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size:75%;
+             background-image: url("../../../../img/sport/legacy/legacy_img.png");}
+
+
+
+.legacy_wrap:focus .legacy_img,
+.legacy_wrap:hover .legacy_img {transform:scale(1);transition:all 500ms ease;}
+
+
+
+.mob{display: none;}
+}
+
+
+
+@media screen and (min-width: 1367px) and (max-width: 1649px) {  
+
+
+.legacy_text { padding:8rem 0 0 6rem;}
+
+
+}
+
+

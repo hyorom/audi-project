@@ -1,0 +1,21 @@
+/*a6_galleryBox_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+
+#a6_galleryBox {height:65.88579795021962vw;/*900/1366*/
+                min-height:31.25rem; /*500*/}
+
+
+/*text*/
+.a6_gallery_text {top:12%;}
+
+.a6_gallery_text>h2 {font-size:1.6rem;}
+
+ 
+
+
+/*bg*/
+.a6_gallery_bg{background-image: url("../../../../img/a6/a6_gallery/a6_gallery_pc.png");}
+
+ }
