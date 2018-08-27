@@ -5,25 +5,18 @@
 //브라우저 크기 값 가져와서 변수 처리
   var winW = $(window).outerWidth(true);
 
-
 //toggle은 두가지 기능을 같이 가지고 있다
 //slidedown,slideup는 내려가고 올라가는 기능 한가지씩만 수행하고 
 //slidetoggle 올라라고 내려가는 두가지 기능 수행
 //fadetoggle 사라지고 보여주는 두가지 기능 수행
-
-
 //*=====slideToggle을 이용한 아코디언*===//
-
 //버튼 변수 선언
 var footBtn = $('.footBtn');
 var footD = $('.foot_drop');
 
-
-
 // 클릭하지 않아도 보여주게 하고 싶다면 
 // 버튼의 부모의(div) 부모의(dt)의 두번째 값을 모두 보여줘라. 
 footBtn.parent().parent().eq(1).nextAll().show();
-
 
  //slideToggle 요소의 height 값을 조작해서 움직임을 만듬
  //slideUp로 열렸을 경우 사라지게 만들기 
@@ -42,8 +35,6 @@ footBtn.parent().parent().eq(1).nextAll().show();
       });
   }
 
-
-
 //자동으로 새로고침 처리하기
 
   $(window).on('resize',function(e){
@@ -52,6 +43,9 @@ footBtn.parent().parent().eq(1).nextAll().show();
       location.reload();
     }  
   });
+})(jQuery);
+
+
 
 /*
 
@@ -87,9 +81,3 @@ footBtn.on('click',function(e){
 
 });
 */
-
-
-
-
-
-})(jQuery);

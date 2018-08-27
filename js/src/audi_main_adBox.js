@@ -11,20 +11,14 @@ var indi = adBox.find('.ad_indicator');
 var indiLi = indi.children('li');
 var indiLiLen = indiLi.length -1;
 
-
-
-
 //배너 변수 선언
 var adBan = $('.ad_banner');
-
 
 //== 첫배너를 마지막 위치에 복제 ==//
 var adLiClone = adBan.find('li').eq(0).clone();
   adBan.children('ul').append(adLiClone);
 var adBanLen = adBan.find('li').length -1;
   adBan.children('ul').css({width:adBanLen * 100 + '%'});
-
-
 
 
 //== 배너의 값주기 ==//
@@ -40,8 +34,6 @@ var move = function(a){
 move(i);
 
 
-
-
 //== indicator ==//
 //indicator 클릭시 배너 이미지 이동
 
@@ -50,13 +42,10 @@ indiLi.on('click',function(e){
   i = $(this).index();
   move(i);
 
-
 });
 
 
-
 //=== 배너가 자동으로 움직이게 하기 ===//
-
 //배너의 갯수를 파악해서 마지막갯수가 되면 처음으로 오게 만들기
 
 var adBanner = function(i){ 
@@ -76,8 +65,6 @@ var num = i * -100 +'%';
 
   adBanner(i);
 
-
-
 //----
   indiLi.on('click',function(e){
     e.preventDefault();
@@ -85,9 +72,6 @@ var num = i * -100 +'%';
     adBanner(i);
   });
 //------
-
-
-
 //--배너가 일정한 시간이 되면 자동으로 이동하게 하기 
     //(setInterval : 일정시간마다 반복실행하는 함수) 
     //(clearInterval)
@@ -103,10 +87,7 @@ var num = i * -100 +'%';
   var StopSlide = function(){
             clearInterval(autoStart); };
 
-
   StartSlide();
-
-
-
+ // StopSlide();
 
 })(jQuery);

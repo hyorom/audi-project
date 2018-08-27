@@ -25,13 +25,11 @@
 
 
 
-
     //==배열값으로 이미지와 타이틀 텍스트 처리하기==//
 
     /*배열*/
     var addr = "../img/news/news/";
     var news = [
-
             {img: "news_01",
              link: "news01.html",
              title: "아우디 코리아, <br />프리미엄 준중형 세단 2018년식 ‘아우디 A4 TDI’ 출시 ",
@@ -289,8 +287,6 @@
         newMoBox.fadeOut();
         newMoBg.fadeOut();
     });
-
-
 
 })(jQuery);
 

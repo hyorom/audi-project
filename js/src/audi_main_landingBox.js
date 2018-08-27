@@ -18,17 +18,17 @@ var qurttroText =  $('.qurttro_text');
 var designBox = $('#designBox');
 var designText =  $('.design_text');
 
-//modelBox
-var modelBox = $('#modelBox');
-var modelText =  $('.model_text');
+  //modelBox
+  var modelBox = $('#modelBox');
+  var modelText =  $('.model_text');
 
-//companyBox
-var companyBox = $('#companyBox');
-var companyText =  $('.company_text');
+  //companyBox
+  var companyBox = $('#companyBox');
+  var companyText =  $('.company_text');
 
-//sportBox
-var sportBox = $('#sportBox');
-var sportText =  $('.sport_text');
+  //sportBox
+  var sportBox = $('#sportBox');
+  var sportText =  $('.sport_text');
 
 
 

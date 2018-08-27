@@ -73,7 +73,8 @@ var outsideWrap = $('.outside_wrap');
  var ImgSetOut = function(i){
 
   var outsideChildren = outsideWrap.children('div');
-  outsideChildren.css({backgroundImage:'url(' + addrBig + choOutImg[i].big + '.png)',
+  outsideChildren.eq(1).css({
+  	         backgroundImage:'url(' + addrBig + choOutImg[i].big + '.png)',
              backgroundRepeat:'no-repeat',
              backgroundSize:'cover',
              backgroundPosition:'center center'});

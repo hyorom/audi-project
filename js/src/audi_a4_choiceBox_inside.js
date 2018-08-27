@@ -51,10 +51,11 @@ var insideWrap = $('.inside_wrap');
 
 var ImgSetIn = function(i){
   var insideChildren = insideWrap.children('div');
-  insideChildren.css({backgroundImage:'url(' + addrInBig + choInImg[i].big + '.png)',
-                      backgroundRepeat:'no-repeat',
-                      backgroundSize:'100%',
-                      backgroundPosition:'center center'});
+  insideChildren.eq(1).css({
+  	        backgroundImage:'url(' + addrInBig + choInImg[i].big + '.png)',
+            backgroundRepeat:'no-repeat',
+            backgroundSize:'100%',
+            backgroundPosition:'center center'});
   insideWrap.animate({marginLeft:'-100%'},function(){
     insideWrap.css({marginLeft:0});
     insideWrap.children().eq(0).appendTo( insideWrap );
