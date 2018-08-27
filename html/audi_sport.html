@@ -28,8 +28,9 @@
 </head> 
 <body>
   <!-- layout -->
-  <div id="wrap">
+ 
 
+  <div id="wrap">
 
     <div class="headBox_wrap">
       <header id="headBox">
@@ -46,7 +47,7 @@
 
             <ul>
               <li>
-                <a href="#" >Audi</a>
+                <a href="#">Audi</a>
                   <div id="gnb_drop_menu">
                     <dl id="gnb_model">
                       <dt class="gnb_title">
@@ -104,16 +105,26 @@
     <!--headBox-->
 
 
-
-
+   <div class="loading"></div>
     <article id="videoBox" class="box">
         <h2 class="hidden">Audi sport video</h2>
      <div class="video_wrap"> 
+
+     <div class="btn">
+        <button type="button" class="play_btn">재생</button>
+        <button type="button" class="pause_btn">일시정지</button>
+      </div>
+
      <video autoplay="autoplay" muted="muted" 
             poster="" loop="loop">
-          <source src="../movie/audi-sport.mp4" type="video/mp4">
-           <p>사용하고 계신 브라우저는 비디오 지원불가능이므로 chrome으로 이동하세요.<br /> <a href="http://google.com/chrome">chrome바로가기</a> </p>
-        </video>
+          <source src="../movie/audi-sport.mp4" 
+                  type="video/mp4">
+           <p>사용하고 계신 브라우저는 비디오 
+            지원불가능이므로 chrome으로 이동하세요.<br /> 
+            <a href="http://google.com/chrome">
+            chrome바로가기</a> 
+           </p>
+     </video>
       </div>
     </article>
     <!-- videoBox -->
@@ -121,7 +132,7 @@
 
 
 
-    <article id="legacyBox" class="box">
+    <article id="legacyBox" class="box" tabindex="0">
       <div class="legacy_wrap">
        <div class="legacy_text"><a href="#"></a>  
         <h2>A LEGACY <br />
@@ -134,7 +145,7 @@
            표식을 만들었습니다.</p>   
       </div>
      
-     <div class="legacy_img"><a href="#"></a></div>
+     <div class="legacy_img"></div>
    </div>
     </article>
     <!-- legacyBox -->
@@ -142,7 +153,7 @@
 
 
       
-    <article id="sportmodelBox" class="box">
+    <article id="sportmodelBox" class="box" tabindex="0">
        <div class="sportmodel_text">  
         <h2>Audi Sports Model</h2>
          <p>Audi는 작년부터 추가 개발 된 <span class="mob"><br /></span>챔피언십 우승 차량으로
@@ -153,9 +164,9 @@
             현탁액은 단순화되었습니다. </p>   
       </div>
      <div class="sportmodel_img"> 
-      <div class="sportmodel_img_01"><a href="#"></a></div>
-      <div class="sportmodel_img_02"> </div>
-      <div class="sportmodel_img_03"> </div>
+      <div class="sportmodel_img_01"></div>
+      <div class="sportmodel_img_02"></div>
+      <div class="sportmodel_img_03"><button type="button"> </button></div>
     </div>
     </article>
     <!-- sportmodelBox -->
@@ -173,20 +184,21 @@
      <div class="hilight_img_wrap">
         <ul class="hilight_img">
         <div class="img_content_01">
-          <li><a href="#"><span>RENE RAST'S<br />
-                 TITLE JOURNEY</span></a></li>
+          <li><a href="#"><span>TRAINING
+          	<br /> FOR GAME</span></a></li>
           <li><a href="#"><span>DTM<br />TICKETSHOP<br />
                  2018</span></a></li>
-          <li><a href="#"><span>RENE RAST'S<br />
-                 TITLE JOURNEY</span></a></li>
+          <li><a href="#"><span>
+          	THEIR <br />EXPLANATION</span></a></li>
         </div>
         <div class="img_content_02 clearfix">
           <li><a href="#"><span>RENE RAST'S<br />
                  TITLE JOURNEY</span></a></li>
-          <li><a href="#"><span>RENE RAST'S<br />
-                 TITLE JOURNEY</span></a></li>
-         <li><a href="#"><span>RENE RAST'S<br />
-                 TITLE JOURNEY</span></a></li>
+          <li><a href="#"><span>
+          	A MOMENT<br />
+          OF HONOR</span></a></li>
+         <li><a href="#"><span>AUDI TEAM<br />
+                 PERFORMENE</span></a></li>
         </div> 
         </ul> 
       </div>
@@ -195,7 +207,7 @@
     
 
     
-    <article id="dtmBox" class="box">
+    <article id="dtmBox" class="box" tabindex="0">
        <div class="dtm_text">  
         <h2>DTM Champions Leage</h2>
          <p>DTM은 30 년 이상 <span class="mob"><br /></span>모터 스포츠 팬들을 매료 시켰으며 <br />
@@ -251,9 +263,9 @@
                     </div>
                 </dt>
                 <dd class="foot_drop">
-                    <a href="#">Audi korea</a>
-                    <a href="#">News</a>
-                    <a href="#">Dealer network</a>
+                    <a href="audi_news.html">Audi korea</a>
+                    <a href="audi_news.html">News</a>
+                    <a href="audi_sport.html">Sport</a>
                 </dd>
                 </dl>
               </li>
@@ -317,7 +329,7 @@
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
   <script src="../js/src/audi_main_gnb.js"></script>
- <!-- <script src="../js/src/audi_sport.js"></script>-->
+ <script src="../js/src/audi_sport.js"></script>
   <script src="../js/src/audi_main_footBox.js"></script>
 </body>
 </html>
