@@ -29,9 +29,10 @@
                    padding-bottom:1.5rem;}
 
 .legacy_text > p {width:auto;
-                   height:auto;
-                   font-size:1rem;
-                    font-weight: bold;}                   
+                  height:auto;
+                  font-size:1rem;
+                  line-height:1.7rem;
+                  font-weight: bold;}                   
 
  /*img*/             
 
@@ -47,6 +48,4 @@
 @keyframes move {
   0%{transform:scale(0.8);}
   100%{transform:scale(1);}
-
-
  }
