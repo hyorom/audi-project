@@ -16,13 +16,13 @@
         background-repeat:no-repeat;
         background-size:cover;}
 
-
+ 
 /*bg*/
 
 .korea_bg {width:100%; 
            height:100%;
            background-image:url("../../../../img/news/korea/korea_bg_tab.png");
-           background-position:center top;}
+           background-position:center center;}
 
 /*text*/
 

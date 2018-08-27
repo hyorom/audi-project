@@ -58,7 +58,8 @@
 .a4_design_wrap > ul > li  dl > dd {font-size:1.1rem;
                                     line-height:2rem;
                                     color:#333;
-                                    padding-bottom:3rem;}
+                                    padding-bottom:3rem;
+                                    font-weight:bold;}
 
 
 /*Btn*/

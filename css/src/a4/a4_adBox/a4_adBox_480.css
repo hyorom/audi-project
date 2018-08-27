@@ -13,15 +13,14 @@
 
 .ad_text_01{padding-bottom:1.5rem;}
 
-.a4_adBox_text > h2 {font-size: 1.5rem;
-                     padding-bottom:2.5rem;}
+.a4_adBox_text > h2 {font-size: 1.6rem;
+                     padding-bottom:2.7rem;}
 
-.a4_adBox_text > p {font-size: 0.9rem;
+.a4_adBox_text > p {font-size: 1rem;
                     line-height: 1.5rem;}
 
 
 /*bg*/
-
 .a4_adBox_bg{background-image:url("../../../../img/a4/a4_ad/a4_ad_bg_mob.png");}
 
 
