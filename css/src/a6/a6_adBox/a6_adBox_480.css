@@ -15,7 +15,8 @@
 .a6_adBox_text > h2 {font-size:2.7rem;
                      padding-bottom:2.2rem;}
 
-.a6_adBox_text > p {font-size: 1rem;}
+.a6_adBox_text > p {font-size: 1rem;
+                    line-height:1.6rem;}
 
 
 /*bg*/
