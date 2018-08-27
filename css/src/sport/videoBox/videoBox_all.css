@@ -1,6 +1,30 @@
 /*video_all.css*/
 
+/*loading*/
+.loading{
+  position: fixed;  width: 100%; height: 100%;
+  z-index: 9000;
+  background-size:cover;
+  background-image: url("../../../../img/loading_01.gif");
+  background-position:center;
+  background-repeat:no-repeat;
+}
 
+/*일시정지버튼*/
+.btn{ position: absolute; top:7rem; right:1rem;
+      z-index:100;
+      width:5rem; height:3rem; 
+      background-color:rgba(0,0,0,0.8);
+      border-radius:2rem;}
+.btn>button{color:#fff;
+	        width:100%; 
+	        height:100%; 
+	        display:none;}      
+.btn>.pause_btn{display: block;}      
+
+
+
+/*video*/
 #videoBox{position:relative;
           width:100%;
           height:100%;}

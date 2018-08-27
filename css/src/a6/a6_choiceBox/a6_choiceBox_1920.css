@@ -5,7 +5,8 @@
 
 #a6_choiceBox {width:100%;
                height:60vw;/*1152/1920*/
-               min-height:59.375rem; /*900px*/}
+               min-height:59.375rem; /*900px*/
+               max-height:110rem;}
 
 
 #a6_choiceBox > h2 {font-size: 2rem;

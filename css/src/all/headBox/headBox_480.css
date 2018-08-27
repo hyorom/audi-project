@@ -28,10 +28,12 @@
   #menuBtn {position:absolute; top:-2.5rem; left:1.5rem; 
             width:35px; height:20px; padding:0;}
   
-  #menuBtn .line {display:block; width:100%; height:auto;
+  #menuBtn .line {transition:all 500ms ease;
+  	              display:block; width:100%; height:auto;
                   border-bottom:2px solid #fff; }
 
-  #menuBtn .line:after{content:" ";  display:block; 
+  #menuBtn .line:after{transition:all 500ms ease;
+  	                   content:" ";  display:block; 
                        position:absolute;  top:0; 
                        background-color: #fff; width:100%; height:2px;}
                   
@@ -40,22 +42,59 @@
                         background-color:#fff; width:100%; height:2px;}
   
 
-
+  #menuBtn.active{transform:rotateY(180deg);}
+  #menuBtn.active .line{border-color:transparent;}
+  #menuBtn.active .line:before{transform-origin:left top; 
+  					           width:95%;
+  					           transform:rotate(-33deg);}
+  #menuBtn.active .line:after{transform-origin:left bottom; 
+  				              width:95%;
+  					          transform:rotate(32deg);}
   /*list*/
-  #gnb ul {padding-top:2rem; 
-          width:100%; height:80vh; 
-          background-color:rgba(0,0,0,0.9);}
+  #gnb ul {display:none;
+  	       padding-top:2rem; 
+           width:100%; height:auto; 
+           background-color:rgba(0,0,0,0.9);
+           padding-bottom:2rem;}
 
   #gnb li {margin:auto; margin-bottom: 2rem; 
-          width:50px; height:auto; 
+          width:100%; height:auto; 
           text-align: center;}
 
   #gnb li a { width:100%; height: inherit;
              color:#fff; font-size: 1rem; font-weight:bold;}
 
 
-  #gnb_drop_menu {display:none;} 
+ /*==drop_menu==*/
 
+
+#gnb_drop_menu {display:none;
+                margin-left:-100%;
+                top:0;
+                padding-top:3rem;
+                height:auto;
+                width:auto;
+                text-align:center;}
+
+
+#gnb_drop_menu>dl{width:100%; 
+      `           height:auto; 
+                  margin-bottom:2rem;}
+
+#gnb_drop_menu>dl:after { content:""; display:block; width:100%; height:100%;
+                           border-bottom:1px solid #fff; margin:auto; padding-top:1rem;}
+
+#gnb_drop_menu>dl a {display: block; width:auto;} 
+
+.gnb_title {margin-bottom:1rem;
+            color:#eee; 
+            font-size:1rem;
+            font-weight:bold;;}
+
+
+#gnb_drop_menu>dl> dd> a {margin-bottom:1rem;
+                           color:#ddd; font-size:0.9rem;
+                           font-weight: lighter;}
 
   /*hover*/
 #headBox a:focus,

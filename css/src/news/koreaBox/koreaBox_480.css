@@ -27,12 +27,13 @@
 /*text*/
 
 
-.korea_text {background-image:url("../../../../img/news/korea/korea_text.png");
+.korea_text {width:100%; height:100%;
+	           background-image:url("../../../../img/news/korea/korea_text.png");
              background-position:center center;}
 
 .korea_text > h2 {margin:auto;
                   width:90%;
-                  padding-top:25%;
+                  padding-top:15%;
                   margin-bottom:3rem;
                   font-size:1.8rem;
                   color:#eee;
@@ -40,11 +41,12 @@
                   text-align: center;}
 
 .korea_text > p {margin:auto;
-                  width:90%;
-                  font-size:0.9rem;
-                  color:#eee;
-                  text-align:center;
-                  line-height:1.8rem;}
+                 width:90%;
+                 font-size:0.9rem;
+                 color:#eee;
+                 text-align:center;
+                 line-height:1.8rem;
+                 word-break: break-all;}
 
 .korea_text > .text_01{margin-bottom:1.5rem;}
 

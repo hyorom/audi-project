@@ -6,7 +6,7 @@
 #newsBox{position:relative;
 		 width:100%; 
 		 height:193.75rem; /*3100*/
-         background-color:#ddd;}
+         background-color:#eee;}
   
 #newsBox> h2 {font-size:2rem;
               color:#333;
@@ -64,14 +64,19 @@
          height:auto;
          color:#bb0a30;}
 
-.newsmoreBtn {width:120px; height:40px;
-			  background-color:#333;
-			  color:#fff;
-			  position:absolute;
-			  bottom:10rem;
-			  left:50%;
-			  margin-left:-60px;
-			  transition:all 500ms linear;}
+.newsmore_btn{width:7.5rem; 
+              height:2.5rem;
+			        position:absolute;
+			        bottom:10rem;
+			        left:50%;
+			        margin-left:-60px;}
+
+
+.newsmoreBtn {width:100%; height:100%;
+               background-color:#333;
+               color:#fff;
+               transition:all 500ms linear;}
+
 
 .newsmoreBtn:focus,
 .newsmoreBtn:hover{background-color:rgba(255,255,255,0.5);
@@ -79,30 +84,34 @@
 			       border:1px solid #999;
 			   	   transition:all 500ms linear;}
 
+
+
  
+
+
+
 /*modal*/
-
-
 .news_modal_box {width:70%; 
                  min-width:27rem;
-                 height:auto;
+                 height:80%;
                  min-height:40rem;
                  position:fixed;
-                 bottom:10%;
+                 top:8vw;
                  left:15%;
                  z-index:500;
                  background-color:rgba(255,255,255,0.9);
-                
                  box-sizing: border-box;
-                 padding:1.5rem;  }
+                 padding:1.5rem; 
+                 padding-bottom:4.5rem; }
 
 
 .modal_img {width:100%;
             height:27vw;
-            background-color:#4ad;
-            margin:auto; }
+             margin-bottom:2rem; }
 
-.news_modal_box > dl {width:100%; height: auto;}
+.news_modal_box > dl {width:100%; height: auto;
+                      height:calc(100% - 27vw - 2rem); overflow-y:scroll;
+                      }
 .news_modal_box > dl > dt { width:auto; height: auto;
                             font-size:1.3rem;
                             font-weight: bold;
@@ -117,13 +126,16 @@
 
 /*listbtn*/
 
-.listBtn{position:absolute;
-         bottom:3%;
-         width:120px; 
-         height:40px;
+.list_btn{position:absolute;
+          bottom:3%;
+          width:7.5rem; 
+          height:2.5rem;}
+
+.listBtn{width: 100%; height: 100%;
          background-color:#333;
          color:#fff;
          transition:all 500ms linear;}
+
 
 .listBtn:focus,
 .listBtn:hover{background-color:rgba(255,255,255,0.9);

@@ -29,8 +29,6 @@
                    background-size:100%;
                    background-repeat: no-repeat;
                    background-position:center top;}
-
-
 .a6_design_img_01  {background-image:url("../../../../img/a6/a6_design/a6_design_01_tab.png");} 
 .a6_design_img_02  {background-image:url("../../../../img/a6/a6_design/a6_design_02_tab.png");}  
 .a6_design_img_03  {background-image:url("../../../../img/a6/a6_design/a6_design_03_tab.png");}  
@@ -54,7 +52,6 @@
 
 .a6_design_wrap > ul > li  dl > dd {font-size:1.1rem;
                                     line-height:2rem;
-                                    font-weight:bold;
                                     color:#333;
                                     padding-bottom:3rem;}
 
@@ -84,13 +81,11 @@
 
 .a6_design_text{padding:13% 0 0 13%;}
 
-
-
 .a6_design_wrap > ul > li  dl > dt {font-size:1.6rem;
                                     padding-bottom:2.5rem;}
 
 .a6_design_wrap > ul > li  dl > dd {font-size:1rem;
-                                    line-height:1.7rem;
+                                    line-height:1.6rem;
                                     padding-bottom:3rem;}
 
 

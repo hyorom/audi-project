@@ -6,7 +6,7 @@
 #newsBox{position:relative;
 		     width:100%; 
 		     height:150rem;
-         background-color:#ddd;}
+         background-color:#eee;}
   
 #newsBox> h2 {font-size:2rem;
               color:#333;
@@ -28,7 +28,7 @@
                        padding:1rem;
                        position:absolute;
                        margin-right:8%;
-                       margin-bottom:40px;
+                       margin-bottom:40px; 
                        width:31%; 
                        height:auto;
                        background-color:#fff;}
@@ -73,14 +73,17 @@
 
 
 /*btn*/
-.newsmoreBtn {width:120px; height:40px;
-			        background-color:#333;
-			        color:#fff;
-			        position:absolute;
-			        bottom:10rem;
-			        left:50%;
-			        margin-left:-60px;
-			        transition:all 500ms linear;}
+.newsmore_btn {width:7.5rem; 
+               height:2.5rem;
+			         position:absolute;
+			         bottom:10rem;
+			         left:50%;
+			         margin-left:-60px;}
+
+.newsmoreBtn {width:100%; height:100%;
+               background-color:#333;
+               color:#fff;
+               transition:all 500ms linear;}
 
 .newsmoreBtn:focus,
 .newsmoreBtn:hover{background-color:rgba(255,255,255,0.5);
@@ -90,27 +93,28 @@
 
  
 
+
+
 /*modal*/
-
-
 .news_modal_box {position:relative;
                  width:70%; 
-                 height:47vw;
+                 height:80%;
                  min-height:34rem;
                  position:fixed;
-                 bottom:10%;
+                 top:3vw;
                  left:15%;
                  z-index:500;
                  background-color:rgba(255,255,255,0.9);
                  box-sizing: border-box;
-                 padding:1.5rem; }
+                 padding:1.5rem; 
+                 padding-bottom:4.5rem;}
 
 
 .modal_img {width:100%;
             height:20vw;
-            margin:auto; }
+            margin-bottom:2rem; }
 
-.news_modal_box > dl {width:100%; height: auto;}
+.news_modal_box > dl {width:100%; height:calc(100% - 20vw - 2rem); overflow-y:scroll;}
 .news_modal_box > dl > dt { width:auto; height: auto;
                             font-size:1.3rem;
                             font-weight: bold;
@@ -125,12 +129,16 @@
 
 /*listbtn*/
 
-.listBtn{position:absolute;
-         bottom:1.5rem;
-         width:120px; height:40px;
+.list_btn{position:absolute;
+          bottom:1.5rem;
+          width:7.5rem; height:2.5rem;}
+
+
+.listBtn{width: 100%; height: 100%;
          background-color:#333;
          color:#fff;
          transition:all 500ms linear;}
+
 
 .listBtn:focus,
 .listBtn:hover{background-color:rgba(255,255,255,0.9);

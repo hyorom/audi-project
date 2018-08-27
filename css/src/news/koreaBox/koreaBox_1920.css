@@ -25,10 +25,11 @@
 
 /*text*/
 
-.korea_text  {background-image:url("../../../../img/news/korea/korea_text.png");
+.korea_text {width:100%; height:100%;
+	          background-image:url("../../../../img/news/korea/korea_text.png");
               background-position:center center;}
 
-.korea_text > h2 {padding-top:20rem;
+.korea_text > h2 {padding-top:10%;
                   margin-bottom:3rem;
                   font-size:3rem;
                   color:#eee;
@@ -39,6 +40,7 @@
                  color:#eee;
                  text-align: center;
                  line-height:2rem;}
+
 
 
 .mob{display: none;} 

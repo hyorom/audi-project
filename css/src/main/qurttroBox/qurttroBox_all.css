@@ -4,7 +4,7 @@
 
 
 .qurttro_text{opacity:0;
-             transform:translateY(8rem);
+            /* transform:translateY(8rem);*/
              transition: all 800ms linear;} 
 
 #qurttroBox .ani{opacity: 1;

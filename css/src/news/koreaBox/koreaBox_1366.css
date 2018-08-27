@@ -26,10 +26,11 @@
 
 
 /*text*/
-.korea_text {background-image:url("../../../../img/news/korea/korea_text.png");
+.korea_text {width:100%; height:100%;
+	          background-image:url("../../../../img/news/korea/korea_text.png");
               background-position:center center;}
 
-.korea_text > h2 {padding-top:20%;
+.korea_text > h2 {padding-top:10%;
                   margin-bottom:2rem;
                   font-size:1.9rem;
                   color:#eee;

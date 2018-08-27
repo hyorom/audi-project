@@ -63,9 +63,9 @@
                                     padding-bottom:1.8rem;}
 
 .a6_design_wrap > ul > li  dl > dd {font-size:1rem;
-                                    font-weight:bold;
                                     color:#333;
-                                    padding-bottom:3rem;}
+                                    padding-bottom:3rem;
+                                    line-height:1.7rem;}
 
 
 /*Btn*/
@@ -91,7 +91,6 @@
 
 
  @media screen and (min-width: 769px) and (max-width:1240px) {
-
 .a6_design_text_01{padding:7% 0 0 8%;}
 .a6_design_text_02 {padding:9% 0 0 6%;}                  
 .a6_design_text_03 {padding:10% 0 0 8%;} 
@@ -107,7 +106,6 @@
 .a6_design_text_01{padding:7% 0 0 9%;}
 .a6_design_text_02 {padding:10% 0 0 6%;}                  
 .a6_design_text_03 {padding:11% 0 0 9%;} 
-
 .a6_design_wrap > ul > li  dl > dt {font-size:1.3rem;
                                     padding-bottom:1.7rem;}
 
@@ -118,7 +116,6 @@
 
 
 @media screen and (min-width: 769px) and (max-width:970px) {
-
 .a6_design_text_01{padding:6% 0 0 8%;}
 .a6_design_text_02 {padding:8% 0 0 6%;}                  
 .a6_design_text_03 {padding:10% 0 0 8%;} 

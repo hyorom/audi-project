@@ -44,7 +44,8 @@
 
 /*=== drop_menu ===*/
 
-#gnb_drop_menu {position: absolute; 
+#gnb_drop_menu {display:none;
+	            position: absolute; 
                 top:41px; 
                 padding-top:4rem;
                 height:auto;}
@@ -67,7 +68,7 @@
                            color:#ddd; font-size:1rem;
                           font-weight: lighter;}
 
-#headBox > .dropBg {width:100%;}
+.dropBg {display:none; width:100%;}
 
 
 /*hover*/

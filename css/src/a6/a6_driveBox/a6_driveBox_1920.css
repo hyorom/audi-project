@@ -6,6 +6,7 @@
 #a6_driveBox {position:relative;
               margin:auto;
               width:85%;
+              max-height: 900px;
               height:46.875vw;/*900/1920*/}
 
 /*text*/
