@@ -24,7 +24,7 @@
  .sportmodel_text >p{width:auto;
                       height:auto;
                       font-size: 1rem;
-                      line-height:1.7rem;
+                      line-height:1.6rem;
                       font-weight: bold;
                       margin:auto;}
 
@@ -69,6 +69,7 @@
 .sportmodel_img:hover div:nth-child(3) {transform:translate(-80%, -15%);}
 
 
+.mob{display:none;}
 
 }
 
